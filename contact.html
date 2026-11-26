@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Rereu to ask about cattle, arrange a farm visit or discuss delivery.">
+  <title>Contact | Rereu Farm & Livestock</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Rereu home"><span class="brand-mark">R</span><span>Rereu<small>FARM & LIVESTOCK</small></span></a>
+    <nav class="main-nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="about.html">About</a><a href="cattle.html">Our cattle</a><a href="services.html">Services</a><a class="active" href="contact.html">Contact</a></nav>
+    <a class="header-cta" href="#enquiry">Make an enquiry <span aria-hidden="true">↗</span></a>
+  </header>
+  <main>
+    <section class="contact-layout">
+      <div class="contact-copy"><p class="eyebrow"><span class="eyebrow-line"></span> GET IN TOUCH</p><h1>Let's talk<br><em>about your farm.</em></h1><p>Have a question about cattle, a visit or delivery? Send us a message and we'll be happy to talk through the details.</p><div class="contact-detail"><span class="detail-symbol">✳</span><div><strong>Call or WhatsApp</strong><p>Add your business number to the WhatsApp setting in <code>script.js</code>.</p></div></div><div class="contact-detail"><span class="detail-symbol">⌖</span><div><strong>Visit</strong><p>Contact us to arrange a farm visit and confirm the location.</p></div></div><p class="pinterest-small">Looking for farm ideas? <a href="https://www.pinterest.com/search/pins/?q=cattle%20farm" target="_blank" rel="noopener noreferrer">Browse Pinterest ↗</a></p></div>
+      <form class="enquiry-form" id="enquiry">
+        <p class="eyebrow">SEND AN ENQUIRY</p><h2>How can we help?</h2>
+        <label for="name">Your name</label><input id="name" name="name" type="text" placeholder="e.g. Alex" autocomplete="name" required>
+        <label for="phone">Phone number <span>(optional)</span></label><input id="phone" name="phone" type="tel" placeholder="e.g. 07XX XXX XXX" autocomplete="tel">
+        <label for="interest">I'm interested in</label><select id="interest" name="interest"><option value="">Select an option</option><option>Dairy cattle</option><option>Beef cattle</option><option>Heifers and calves</option><option>Farm visit</option><option>Delivery</option><option>Something else</option></select>
+        <label for="message">Your message</label><textarea id="message" name="message" rows="5" placeholder="Tell us what you're looking for..." required></textarea>
+        <button class="button button-dark form-submit" type="submit">Send on WhatsApp <span aria-hidden="true">→</span></button><p class="form-note">Your message will open in WhatsApp for you to review before sending.</p>
+      </form>
+    </section>
+  </main>
+  <footer class="site-footer"><a class="brand footer-brand" href="index.html"><span class="brand-mark">R</span><span>Rereu<small>FARM & LIVESTOCK</small></span></a><p>Good stock. Good roots.</p><span>© <span data-year></span> Rereu</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
